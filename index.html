@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!------------home-------->
+    <div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo">PORTIFOLIO</h1>
+             <ul id="sidemenu">
+                 <li><a href="#header">Home</a></li>
+                 <li><a href="#About">About</a></li>
+                 <li><a href="#Services">Services</a></li>
+                 <li><a href="#Portifolio">Portifolio</a></li>
+                 <li><a href="#Contact">Contact</a></li>
+                 <i class="fa fa-times" onclick="closemenu()"></i>
+             </ul>
+             <i class="fa fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>
+                WEB DESIGNER
+                <H1>Hi, i am <span>Muchiri</span><br>Mugambi</H1>
+            </p>
+        </div>
+        </div>
+    </div>
+    <!------------About------------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class ="about-col-1">
+                    <img src="images/back2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        The act of managing natural or man made disasters will require a team effort or more aptly
+                        The act of managing natural or man made disasters will require a team effort or more aptly
+                        The act of managing natural or man made disasters will require a team effort or more aptly
+
+
+       
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>web design</span><br>web app development</li>
+                            <li><span>photography</span><br>photos and videos</li>
+                            <li><span>Graphics Design</span><br>developing great graphics</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Graphics</li>
+                            <li><span>web design</span><br>html,css,javascript,bootstrap,django,php</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id ="education">
+                        <ul>
+                            <li><span>kirinyaga university</span><br>Bsc mathematics and computer science</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------Services--------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Am passionate about creating visually stunning and user friendly websites for 
+                        delivering exceptional user experiences
+                    </p>
+                    <!---- <a href="#">Learn more</a>--->
+                </div>
+                <div>
+                    <i class="fa fa-camera"></i>
+                    <h2>photography</h2>
+                    <p>
+                        I am thrilled to present my proffessional photography services with the best quality 
+                        cameras.Committed to delivering exceptional results and creating cherished memories.
+                    </p>
+                    <!---- <a href="#">Learn more</a>--->
+                </div><div>
+                    <i class="fa fa-crop"></i>
+                    <h2>Graphics Design</h2>
+                    <p>As a graphic designer, i bring a unique blendof creativity, technical skills, passion
+                        for visual communication to every project and meeting deadlines.
+                    </p>
+                  <!---- <a href="#">Learn more</a>--->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-----------portifolio-------->
+    <div id= "Portifolio";>
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src ="images/social.png" width="400" height="450">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Connects with people all over the world.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/shopping.png" height="450">
+                <div class="layer">
+                    <h3>online shopping</h3>
+                    <p>connect with your customers on your phone</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/back2.jpg">
+                <div class="layer">
+                    <h3>Great Memories</h3>
+                    <p>creates memories using your gallery</p>
+                </div>
+            </div> 
+        </div>
+       <!---- <a href="#" class = "btn">See more</a>-->
+    </div>
+    </div>
+<!------contact------>
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa fa-envelope icon" ></i><a href="mailto:kevinisaacmugambi@gmail.com">Send mail</a></p>
+                <p><i class="fa fa-phone"></i>0705191842</p>
+                <div class="social-icons">
+                    <a href ="http://web.facebook.com/isaac.muchiri.39"><i class="fa fa-facebook" ></i></a>
+                    <a href ="https://x.com/twitt_login"><i class="fa fa-twitter" ></i></a>
+                    <a href="https://www.instagram.com/muchiri446/"><i class="fa fa-instagram" ></i></a>
+                    <a href ="https://wa.me/0705191842"><i class="fa fa-whatsapp" ></i></a>
+                </div>
+                <a href="MyResume ISAAC.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right" id="result">
+                <form method="post" id="form">
+                    <input type="hidden" name="access_key" value="36000ad2-528a-4bef-ad96-31f7364bb539">
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <input type="text" name="text" placeholder="your name"required>
+                    <input type="text" name="email" placeholder="enter your email"required>
+                    <textarea name="Message" rows="6" placeholder="enter your message"></textarea>
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa fa-copyright"></i> 2024 || All rights reserved</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    const form = document.getElementById('form');
+    const result = document.getElementById('result');
+    
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+      result.innerHTML = "Please wait..."
+    
+        fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+            .then(async (response) => {
+                let json = await response.json();
+                if (response.status == 200) {
+                    result.innerHTML = "Form submitted successfully";
+                } else {
+                    console.log(response);
+                    result.innerHTML = json.message;
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                result.innerHTML = "Something went wrong!";
+            })
+            .then(function() {
+                form.reset();
+                setTimeout(() => {
+                    result.style.display = "none";
+                }, 3000);
+            });
+    });
+    </script>
+
+    
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
