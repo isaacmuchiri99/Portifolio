@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial,sans-serif;
 }
 body{
     background: #080808;
@@ -33,9 +33,9 @@ nav{
 }
 .logo{
     width: 140px;
-    font-size:40px;
+    font-size:30px;
     color: rgb(239, 239, 241);
-    font-family:calibri;
+  
 }
 
 nav ul li{
@@ -78,7 +78,7 @@ nav ul li a:hover::after{
  
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 .header-text p{
     font-size: 18px;
@@ -100,7 +100,7 @@ h1{
 }
 /*---------about--------*/
 #About{
-    padding:60px 0;
+    padding:20px 0;
     color:whitesmoke;
   
     
@@ -122,11 +122,11 @@ h1{
     
 }
 .about-col-2 p{
-    font-size: 18px;
+    font-size: 20px;
+    font-family:calibri;
 }
 .sub-title{
-    
-  
+   
     color:rgb(220, 218, 228);
     margin-bottom: 30px;
 }
@@ -138,8 +138,7 @@ h1{
 }
 .tab-links{
     margin-right:50px;
-    font-size: 30px;
-    font-weight: 500;
+    font-weight: 100;
     cursor:pointer;
     position: relative;
 }
@@ -160,7 +159,7 @@ h1{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 .tab-contents ul li span{
     color:palevioletred;
@@ -195,7 +194,7 @@ h1{
     margin-bottom:15px;
 }
 .services-list div h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
     font-weight: 500;
 }
