@@ -129,11 +129,13 @@ h1{
    
     color:rgb(220, 218, 228);
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .tab-titles{
     display: flex;
     margin:20px 0 40px;
+ 
 
 }
 .tab-links{
@@ -141,6 +143,7 @@ h1{
     font-weight: 100;
     cursor:pointer;
     position: relative;
+
 }
 .tab-links::after{
     content:'';
